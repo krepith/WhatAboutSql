@@ -1,0 +1,9 @@
+otras operaciones
+CASE se utiliza para crear una nueva columna en donde los valores son generados segun una serie de condiciones
+
+select *, 
+case
+when amount > 7 then 1
+else 0
+end as logica
+from payment
